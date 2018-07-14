@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Create a Sentence</title>
+{% endblock %}
+
+{% block body %}
+        <div class="body-header">
+          <h1>Share your sentence with the world.</h1>
+        </div>
+        <div class="create-form">
+          <form method="POST" action="/newpost">
+            <p>Write your sentence below:</p>
+            <textarea class="create-text" name="post-text" placeholder="Vim is better than Emacs."></textarea>
+            <br />
+            <br />
+            <input class="create-submit" type="submit" value="Send." />
+          </form>
+        </div>
+{% endblock %}

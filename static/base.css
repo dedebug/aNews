@@ -1,0 +1,54 @@
+/*
+  This is such HORRIBLE CSS
+  PLEASE DON'T LEARN FROM IT
+*/
+
+body {
+  margin: 0 25%;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#header {
+  height: 20px;
+  background-color: #000070;
+}
+
+.header-nav {
+  float: left;
+  width: 33.33%;
+  background-color: blue;
+}
+
+.header-nav a {
+  padding: 10%;
+  text-decoration: none;
+  text-align: center;
+  color: yellow;
+}
+
+h1 {
+  margin-bottom: 0%;
+}
+
+.header-nav a:hover {
+  color: red;
+}
+
+
+/* Create CSS */
+
+.create-form {
+  margin-top: 5%;
+  border: 1px solid purple;
+}
+
+.create-form input[type=text] {
+  width: 90%;
+  text-align: center;
+}
+
+.create-text {
+  width: 90%;
+  height: 10em;
+}
